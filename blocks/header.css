@@ -93,3 +93,58 @@
     font-size: 1rem;
   }
 }
+
+/* Responsive design for large mobiles */
+@media (max-width: 768px) {
+  .home__title {
+    font-size: 3rem; /* Adjusted for large mobiles */
+  }
+
+  .home__subtitle {
+    font-size: 1rem;
+  }
+
+  .home__cta-button {
+    bottom: -40px; /* Adjusted for large mobiles */
+    right: 25px;
+    width: 200px; /* Adjusted for large mobiles */
+    height: 60px; /* Adjusted for large mobiles */
+    font-size: 18px; /* Adjusted for large mobiles */
+  }
+}
+
+/* Responsive design for 600px */
+@media (max-width: 600px) {
+  .home {
+    padding: 30px 10px;
+  }
+
+  .home__title {
+    font-size: 2rem; /* Adjusted for small mobiles */
+    text-align: center; /* Center title for small screens */
+  }
+
+  .home__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .home__cta-button {
+    position: static; /* Adjust button position for small screens */
+    margin: 20px auto 0; /* Center button and add margin on top */
+    width: 60%;
+    height: auto; /* Adjusted for small mobiles */
+    font-size: 16px; /* Adjusted for small mobiles */
+    padding: 10px 0; /* Adjusted padding for small mobiles */
+  }
+
+  .home__branding {
+    position: relative; /* Adjust branding position for small screens */
+    margin-bottom: 20px; /* Add margin at the bottom */
+  }
+
+  .home__name {
+    display: block; /* Ensure the name is on its own line */
+    margin: 0 auto; /* Center the name */
+    font-size: 0.9rem; /* Adjusted for small mobiles */
+  }
+}
