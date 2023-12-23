@@ -1,0 +1,95 @@
+/* home.css */
+.home {
+  position: relative;
+  background-image: url("/images/Header-image.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.home__content {
+  position: relative;
+}
+
+.home__title {
+  font-size: 88px;
+  text-align: left;
+  color: #d0ff95;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
+.home__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.home__cta-button {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: -77px;
+  right: 77px;
+  background-color: #d0ff95;
+  color: #000;
+  padding: 10px 20px;
+  width: 345px;
+  height: 95px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+  transition: background-color 0.3s ease;
+}
+
+.home__cta-button:hover {
+  background-color: #5aa76d;
+}
+
+.home__branding {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.home__name {
+  font-weight: lighter;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Responsive design for tablets */
+@media (max-width: 1024px) {
+  .home {
+    padding: 80px 15px;
+  }
+
+  .home__title {
+    font-size: 4rem; /* Adjusted for tablet */
+  }
+
+  .home__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .home__cta-button {
+    bottom: -60px; /* Adjusted for tablet */
+    right: 50px;
+    width: 250px; /* Adjusted for tablet */
+    height: 70px; /* Adjusted for tablet */
+    font-size: 22px; /* Adjusted for tablet */
+  }
+
+  .home__branding {
+    top: 15px;
+    right: 15px;
+  }
+
+  .home__name {
+    font-size: 1rem;
+  }
+}
